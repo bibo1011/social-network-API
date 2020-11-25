@@ -1,4 +1,4 @@
-const { Schema, model } = require ('mongoose');
+const { Schema, Types, model } = require ('mongoose');
 
 const ReactionSchema = new Schema (
     {
@@ -7,10 +7,13 @@ const ReactionSchema = new Schema (
             default: () => new Types.ObjectId()
         },
         reactionBody: {
-            type: String
+            type: String,
+            required: 'Body is Required',
+            maxlength: 280
         },
-        writtenBy: {
-            type: String
+        username: {
+            type: String,
+            required: 'Username is Required'
         },
         createdAt: {
             type: Date,
@@ -33,7 +36,10 @@ const ThoughtSchema = new Schema(
             default: Date.now
             // Use a getter method to format the timestamp on query
         },
-        username: {}, //(The user that created this thought)
+        username: {
+            type: Schema.Types.ObjectId,
+            ref: 'User'
+        }, //(The user that created this thought)
         reactions: [ReactionSchema]
 
     },

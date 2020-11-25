@@ -1,5 +1,5 @@
 const { Schema, model } = require ('mongoose')
-const thoughtsSchema = require('./Thought')
+const ThoughtsSchema = require('./Thought')
 
 const UserSchema = new Schema(
     {
@@ -15,7 +15,7 @@ const UserSchema = new Schema(
             unique: true,
             match: [/.+@.+\..+/, 'Please enter a valid e-mail address']
         },
-        thoughts: [thoughtsSchema], //values referencing the Thought model
+        thoughts: [ThoughtsSchema], //values referencing the Thought model
         friends: [UserSchema] //values referencing the User model (self-reference)
         
     },
