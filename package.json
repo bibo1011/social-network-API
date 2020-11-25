@@ -1,0 +1,27 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "challenge 18 NoSQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibo1011/social-network-API.git"
+  },
+  "keywords": [
+    "MongoDB"
+  ],
+  "author": "Blue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bibo1011/social-network-API/issues"
+  },
+  "homepage": "https://github.com/bibo1011/social-network-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  }
+}
