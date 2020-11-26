@@ -40,7 +40,7 @@ const ThoughtSchema = new Schema(
             type: Schema.Types.ObjectId,
             ref: 'User'
         }, //(The user that created this thought)
-        reactions: [ReactionSchema]
+        // reactions: [ReactionSchema]
 
     },
     {
@@ -50,9 +50,9 @@ const ThoughtSchema = new Schema(
     }
 );
 
-ThoughtSchema.virtual('reactionCount').get(function () {
-    return this.reactions.length
-})
+// ThoughtSchema.virtual('reactionCount').get(function () {
+//     return this.reactions.length
+// })
 
 const Thought = model('Thought', ThoughtSchema);
 
