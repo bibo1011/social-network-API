@@ -30,6 +30,13 @@
    
   Go to app folder CLI then type `npm start` to run server. Open Insomia Core or any API client. 
 
+
+  Walkthrough video link: 
+
+  VScode https://drive.google.com/file/d/1_Dc6pRVgd0dY6_Tt1NTzocsSZbTYINBZ/view?usp=sharing
+
+  Insomia Core https://drive.google.com/file/d/1Jf1mevee9lIrEZoW45IddehyysRVbovw/view?usp=sharing
+
   ## *Credits*
    
   UCB Bootcamp
