@@ -1,7 +1,7 @@
 # Social Network API
   ## *Description*
    
-  It the backend of social network web application where users can share their thoughts, add a friend from user's list, and react on friends thought. 
+  It is a backend of social network web application where users can share their thoughts, add a friend from user's list, and react on friends thought. 
 
   ## *Table of Content*
   
@@ -42,7 +42,7 @@
 
   ## *Badges*
 
-  ![alt text](https://img.shields.io/badge/license-Mozilla_Public_License 2.0-blueviolet?style=for-the-badge&logo=appveyor "license badge")
+  ![alt text](https://img.shields.io/badge/license-Mozilla_Public_License2.0-blueviolet?style=for-the-badge&logo=appveyor "license badge")
 
   ## *Contributing*
    
